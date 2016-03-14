@@ -1,4 +1,4 @@
-(function(){
+//(function(){
   var application = require('app'),
   BrowserWindow = require('browser-window'),
   MyMenu = require('./js/my-menu'),
@@ -28,4 +28,4 @@
       mainWindow = null;
     });
   });
-})();
+//})();

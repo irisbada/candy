@@ -48,6 +48,12 @@ module.exports = {
 
         trayIconObject.setToolTip('Electron Tray Icon Menu Demo');
 
+        // trayIconObject.addEventListener("click", function() {
+        //   var targetWindow = BrowserWindow.getAllWindows()[0];
+        //   targetWindow.reload();
+        // });
+
+
         // displayBalloon() method is used to show Windows native notification balloon
         trayIconObject.displayBalloon({
           title: "tray Icon Menu Demo",
